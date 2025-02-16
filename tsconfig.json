@@ -13,7 +13,11 @@
     "strict": true,
     "noImplicitAny": true,
     "strictPropertyInitialization": true,
-    "useUnknownInCatchVariables": true
+    "useUnknownInCatchVariables": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "include": ["src", "src/types/environment.d.ts"],
   "exclude": ["node_modules", "dist"]
